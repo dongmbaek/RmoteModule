@@ -73,6 +73,7 @@ void indexpg() {
 
 void de1() {
   server.send(200, "text/html", device1_1);
+  iresend.NECsend(0x123123,32);
 }
 
 void de2() {
